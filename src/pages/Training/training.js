@@ -68,7 +68,7 @@ const Training = () => {
                                 </div>
                             </Card.Text>
                             <Card.Text>
-                                <span className="keySkill mt-5 mb-5">➢	Key skills : Html5, CSS, JavaScript, JQuery, Web Scraping, ReactJS.</span>
+                                <span className="keySkill mt-5 mb-5">➢	Key skill : MERN Stack.</span>
                                 <br></br>
                                 I made more than 10 projects during the training. Using all the different skills. I learned mern stack.It helped me lot in learning and developing a site.
 
