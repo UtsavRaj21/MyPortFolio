@@ -23,7 +23,7 @@ const MyAbout = () => {
                             Hi there! I am <strong>&nbsp;Utsav Raj</strong>
                             <br />
                             I am a passionate software developer seeking a beginner role to enhance and explore my technical knowledge.
-                            <br /> I am a Full Stack Web Developer with React.js, Redux, Express.js, Node.js, and PostgreSQL as my tech stack.
+                            <br /> I am a Full Stack Web Developer with React.js, Redux, Express.js, Node.js, and MongoDB as my tech stack.
                             <br />
                             In 2022, I will successfully complete my Engineering .
                             

@@ -9,6 +9,7 @@ import Music from '../../assets/img/projects/music.png';
 import Netflix from '../../assets/img/projects/netflix.png';
 import Automation from '../../assets/img/projects/automation.png';
 import Excel from '../../assets/img/projects/excel.png';
+import ResumeBuilder from '../../assets/img/projects/ResumeBuilder.png';
 
 // skills
 import L_REACT from "../../assets/img/skills/react.svg";
@@ -28,6 +29,7 @@ import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 import L_JavaScript from "../../assets/img/skills/javascript.svg";
 import L_LocalStorage from "../../assets/img/skills/localstorage.jpg";
 import L_Puppeteer from "../../assets/img/skills/puppeteer.png";
+import L_Firebase from "../../assets/img/skills/firebase.png";
 
 const ProjectsTimeline = () => {
     return (
@@ -35,7 +37,108 @@ const ProjectsTimeline = () => {
             <h1 className=" pt-5 text-center pb-4 font-details-b">Projects</h1>
             <Timeline>
                 <Events>
+                {/* Resume Builder */}
+                <ImageEvent
+                        date="16/08/2021"
+                        className="text-center"
+                        text="Resume Builder"
+                        src={ResumeBuilder}
+                        alt="Resume Builder"
+                    >
+                        <div className="d-flex justify-content-between flex-column mt-1">
+                            <div>
+                                <Accordion>
+                                    <Card>
+                                        <Accordion.Toggle
+                                            as={Card.Header}
+                                            eventKey="0"
+                                            className="p-2 text-center accordian-main"
+                                        >
+                                            PROJECT DETAILS
+                                        </Accordion.Toggle>
 
+                                        <Accordion.Collapse eventKey="0" className="text-left">
+                                            <Card.Body>
+                                                <strong>Description:</strong> This is Resume-Builder
+                        <hr />
+                                                <strong>Features:</strong>
+                                                <ul className="list-styles pt-1">
+                                                    <li>Create Resume and download it in the computer or save in your database also.</li>
+                                                    <li>Sign-in and sing-up page. Email-ID and Password save in Firebase.</li>
+                                                
+                                                </ul>
+                                                <hr />
+                                                <strong>Tech used:</strong>
+                                                <ul>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_REACT}
+                                                                alt="REACT"
+                                                                rounded
+                                                                className="image-style m-1"
+                                                            ></Image>{" "}
+                                                        REACT
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_REDUX}
+                                                                alt="REDUX"
+                                                                rounded
+                                                                className="image-style m-1"
+                                                            ></Image>{" "}
+                                                        REDUX
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_Firebase}
+                                                                alt="Firebase"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                            ></Image>{" "}
+                                                            Firebase
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <span className="p-2">
+                                                            <Image
+                                                                src={L_MATERIALUI}
+                                                                alt="MaterialUI"
+                                                                rounded
+                                                                className="image-style1 m-1"
+                                                            ></Image>{" "}
+                                                            Material UI
+                                                        </span>
+                                                    </li>
+
+                                                </ul>
+                                            </Card.Body>
+                                        </Accordion.Collapse>
+                                    </Card>
+                                </Accordion>
+                            </div>
+                            <div className="m-flex justify-content-between flex-nowrap text-center">
+                                <UrlButton
+                                    href="https://github.com/UtsavRaj21/Resume-Builder"
+                                    target="_blank"
+                                >
+                                    SOURCE CODE
+                                </UrlButton>
+                                {/* <UrlButton
+                                    href="https://www.linkedin.com/posts/utsav-raj-4531621ba_connections-html-css-activity-6830882718952366080-afvN"
+                                    target="_blank"
+                                >
+                                    WATCH VIDEO
+                                </UrlButton> */}
+                            </div>
+                        </div>
+                    </ImageEvent>
+
+                 {/* Excel */}
                 <ImageEvent
                         date="16/07/2021"
                         className="text-center"
