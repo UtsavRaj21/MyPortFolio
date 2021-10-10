@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/MyPortFolio/static/css/main.763ac8ff.chunk.css",
-    "main.js": "/MyPortFolio/static/js/main.729646e8.chunk.js",
-    "main.js.map": "/MyPortFolio/static/js/main.729646e8.chunk.js.map",
+    "main.js": "/MyPortFolio/static/js/main.ede3e5d9.chunk.js",
+    "main.js.map": "/MyPortFolio/static/js/main.ede3e5d9.chunk.js.map",
     "runtime-main.js": "/MyPortFolio/static/js/runtime-main.0702e877.js",
     "runtime-main.js.map": "/MyPortFolio/static/js/runtime-main.0702e877.js.map",
-    "static/js/2.ffe51516.chunk.js": "/MyPortFolio/static/js/2.ffe51516.chunk.js",
-    "static/js/2.ffe51516.chunk.js.map": "/MyPortFolio/static/js/2.ffe51516.chunk.js.map",
+    "static/js/2.950d716b.chunk.js": "/MyPortFolio/static/js/2.950d716b.chunk.js",
+    "static/js/2.950d716b.chunk.js.map": "/MyPortFolio/static/js/2.950d716b.chunk.js.map",
     "index.html": "/MyPortFolio/index.html",
     "static/css/main.763ac8ff.chunk.css.map": "/MyPortFolio/static/css/main.763ac8ff.chunk.css.map",
-    "static/js/2.ffe51516.chunk.js.LICENSE.txt": "/MyPortFolio/static/js/2.ffe51516.chunk.js.LICENSE.txt",
+    "static/js/2.950d716b.chunk.js.LICENSE.txt": "/MyPortFolio/static/js/2.950d716b.chunk.js.LICENSE.txt",
+    "static/media/ResumeBuilder.d2d4b6a6.png": "/MyPortFolio/static/media/ResumeBuilder.d2d4b6a6.png",
     "static/media/automation.4097087c.png": "/MyPortFolio/static/media/automation.4097087c.png",
     "static/media/contact.css": "/MyPortFolio/static/media/background.48c0b661.webp",
     "static/media/bootstrap-4.997c463d.svg": "/MyPortFolio/static/media/bootstrap-4.997c463d.svg",
@@ -18,7 +19,7 @@
     "static/media/django.0779fca2.svg": "/MyPortFolio/static/media/django.0779fca2.svg",
     "static/media/excel.292bc054.png": "/MyPortFolio/static/media/excel.292bc054.png",
     "static/media/express.75fff9be.svg": "/MyPortFolio/static/media/express.75fff9be.svg",
-    "static/media/firebase.31ac7929.svg": "/MyPortFolio/static/media/firebase.31ac7929.svg",
+    "static/media/firebase.004e20d7.png": "/MyPortFolio/static/media/firebase.004e20d7.png",
     "static/media/flask.611b5611.svg": "/MyPortFolio/static/media/flask.611b5611.svg",
     "static/media/git-icon.c60b7e5a.svg": "/MyPortFolio/static/media/git-icon.c60b7e5a.svg",
     "static/media/github-api.3a5ccf39.svg": "/MyPortFolio/static/media/github-api.3a5ccf39.svg",
@@ -51,8 +52,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0702e877.js",
-    "static/js/2.ffe51516.chunk.js",
+    "static/js/2.950d716b.chunk.js",
     "static/css/main.763ac8ff.chunk.css",
-    "static/js/main.729646e8.chunk.js"
+    "static/js/main.ede3e5d9.chunk.js"
   ]
 }
