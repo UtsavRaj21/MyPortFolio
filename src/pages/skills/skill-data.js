@@ -115,12 +115,20 @@ export const skills ={
           imgSrc: L_GITHUB_PAGES,
           skillName: "GitHub Pages",
         },
+       
         {
-          link: "firebase.google.com",
-          imgAltText: "Firebase",
-          imgSrc: "https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png",
-          skillName: "Firebase",
+          link: "https://en.wikipedia.org/wiki/Heroku",
+          imgAltText: "Heroku",
+          imgSrc:L_HEROKU,
+          skillName: "Heroku",
         },
+        {
+          link: "https://www.netlify.com/",
+          imgAltText: "Netlify",
+          imgSrc:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSh_grG5KZGEhSZ-3ToCznbloNRtzIlXR53hK-j3HuYlsFWrs7DKbqYgudRGhVJiWseV0&usqp=CAU",
+          skillName: "Netlify",
+        },
+        
       ],
       programmingLanguages: [
         {
@@ -155,6 +163,12 @@ export const skills ={
           imgAltText: "MongoDB",
           imgSrc: L_MONGODB,
           skillName: "MongoDB",
+        },
+        {
+          link: "firebase.google.com",
+          imgAltText: "Firebase",
+          imgSrc: "https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png",
+          skillName: "Firebase",
         },
       ],
       versionControl: [

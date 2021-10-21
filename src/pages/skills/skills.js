@@ -9,8 +9,8 @@ import './skills.css'
 import { skills } from './skill-data'
 const Skills = () => {
     return (
-        <div className="pt-5 pb-3" id='skills'>
-            <h1 className="pt-5 text-center pb4 font-details-b">Tech Skills</h1>
+        <div className="pt-5 pb-5" id='skills'>
+            <h1 className="pt-5 text-center pb-4 font-details-b">Tech Skills</h1>
             <CardDeck>
                 <Row className="d-flex justify-content-around">
                     <Col md={4}>

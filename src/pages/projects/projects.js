@@ -121,19 +121,19 @@ const ProjectsTimeline = () => {
                                     </Card>
                                 </Accordion>
                             </div>
-                            <div className="m-flex justify-content-between flex-nowrap text-center">
+                            <div className="d-flex justify-content-between flex-nowrap text-center">
                                 <UrlButton
                                     href="https://github.com/UtsavRaj21/Resume-Builder"
                                     target="_blank"
                                 >
                                     SOURCE CODE
                                 </UrlButton>
-                                {/* <UrlButton
-                                    href="https://www.linkedin.com/posts/utsav-raj-4531621ba_connections-html-css-activity-6830882718952366080-afvN"
+                                <UrlButton
+                                    href="https://resumebuilderutsav.netlify.app/"
                                     target="_blank"
                                 >
-                                    WATCH VIDEO
-                                </UrlButton> */}
+                                    Live
+                                </UrlButton>
                             </div>
                         </div>
                     </ImageEvent>
@@ -232,10 +232,10 @@ const ProjectsTimeline = () => {
                                     SOURCE CODE
                                 </UrlButton>
                                 <UrlButton
-                                    href="https://www.linkedin.com/posts/utsav-raj-4531621ba_connections-html-css-activity-6830882718952366080-afvN"
+                                    href="https://excel-clone-utsav.netlify.app/"
                                     target="_blank"
                                 >
-                                    WATCH VIDEO
+                                    Live
                                 </UrlButton>
                             </div>
                         </div>

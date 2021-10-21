@@ -8,11 +8,11 @@ import './training.css'
 import Button from "react-bootstrap/Button";
 const Training = () => {
     return (
-        <div className="pt-5 pb-3 mt-3 mb-5" id='training'>
-            <h1 className="pt-5 text-center pb-4 font-dark">Training</h1>
+        <div className="pt-5 pb-5 mt-5 mb-5" id='training'>
+            <h1 className="pt-5 text-center pb-5 font-dark">Training</h1>
             <Row className="d-flex justify-content-around">
                 <Col md={6}>
-                    <Card className="focus mt-2 mb-2">
+                    <Card className="focus mt-5 mb-5">
                         <Card.Body>
                             <Card.Title className="text-center  card-title">Data Structes and Alogrithms</Card.Title>
                             <hr />
@@ -51,7 +51,7 @@ const Training = () => {
                 </Col>
 
                 <Col md={6}>
-                    <Card className="focus mt-2 mb-2">
+                    <Card className="focus mt-5 mb-5">
                         <Card.Body>
                             <Card.Title className="text-center  card-title">Web Development</Card.Title>
                             <hr />

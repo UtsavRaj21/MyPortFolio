@@ -9,6 +9,7 @@ import TitleMessage from './components/titleMessage/titleMessage';
 import MyAbout from './pages/myAbout/myAbout';
 import Background from '../src/assets/img/background/background.webp'
 import Skills from './pages/skills/skills';
+import Experience from './pages/experience/experience';
 import Training from './pages/Training/training';
 import ProjectsTimeline from './pages/projects/projects';
 import Contact from './pages/contact/contact';
@@ -42,6 +43,14 @@ function App() {
         <Container className="container-box rounded">
           <Fade duration={3000}>
             <Skills />
+          </Fade>
+        </Container>
+      </div>
+
+      <div>
+        <Container className="container-box rounded">
+          <Fade duration={3000}>
+            <Experience />
           </Fade>
         </Container>
       </div>
